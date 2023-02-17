@@ -1,4 +1,14 @@
 zigbeeManufacturer:
+  - id: "Vimar/xx594-roller-shutter"
+    deviceLabel: Vimar Smart Roller Shutter
+    manufacturer: Vimar
+    model: Window_Cov_v1.0
+    deviceProfileName: window-treatment-profile-no-firmware-update
+  - id: "Vimar/03982-roller-shutter-module"
+    deviceLabel: Vimar Smart Roller Shutter Module
+    manufacturer: Vimar
+    model: Window_Cov_Module_v1.0
+    deviceProfileName: window-treatment-profile-no-firmware-update
   - id: "LUMI/lumi.curtain"
     deviceLabel: Aqara Curtain Controller
     manufacturer: LUMI
@@ -77,11 +87,6 @@ zigbeeManufacturer:
     deviceLabel: AXIS Window Treatment
     manufacturer: AXIS
     model: Gear
-    deviceProfileName: window-treatment-battery
-  - id: "Third Reality/3RSB015BZ"
-    deviceLabel: ThirdReality Smart Blind huan test
-    manufacturer: Third Reality, Inc
-    model: 3RSB015BZ
     deviceProfileName: window-treatment-battery
 zigbeeGeneric:
   - id: "genericShade"
