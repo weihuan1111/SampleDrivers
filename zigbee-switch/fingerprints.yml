@@ -845,7 +845,7 @@ zigbeeManufacturer:
     deviceProfileName: basic-switch
   - id: Third Reality/3RSP02028BZ
     deviceLabel: Huan Plug1
-    manufacturer: ThirdReality, Inc
+    manufacturer: Third Reality, Inc
     model: 3RSP02028BZ
     deviceProfileName: switch-power-energy-consumption-report
   - id: "DAWON_DNS/PM-S140-ZB"
