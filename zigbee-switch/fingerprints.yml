@@ -2059,13 +2059,13 @@ zigbeeGeneric:
         - 0x0008 #Level
     deviceProfileName: switch-level
   - id: "genericColorBulb"
-    deviceLabel: Zigbee Light
+    deviceLabel: Zigbee Lights
     clusters:
       server:
         - 0x0006 #OnOff
         - 0x0008 #Level
         - 0x0300 #Color Control
-    deviceProfileName: rgbw-bulb
+    deviceProfileName: on-off-level-motion-sensor
   - id: "genericMeteredSwitch"
     deviceLabel: Zigbee Switch
     clusters:
