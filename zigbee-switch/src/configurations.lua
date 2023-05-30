@@ -59,7 +59,7 @@ local devices = {
     IAS_ZONE_CONFIG_METHOD = constants.IAS_ZONE_CONFIGURE_TYPE.AUTO_ENROLL_RESPONSE
   },
   --huan
-  SENGLED_BULB_WITH_MOTION_SENSOR = {
+  THIRDREALITY_BULB_WITH_MOTION_SENSOR = {
     FINGERPRINTS = {
       { mfr = "Third Reality, Inc", model = "3RSNL02043Z" }
     },
