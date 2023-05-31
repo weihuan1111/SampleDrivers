@@ -125,11 +125,6 @@ local ZLL_DIMMER_BULB_FINGERPRINTS = {
     ["E14-U43"] = true,
     ["E13-N11"] = true
   },
-  --huan
-  --["Third Reality, Inc"] = {
-    --["3RSNL02043Z"] = true
-  --},
-  --huan
   ["GLEDOPTO"] = {
     ["GL-C-008"] = true,
     ["GL-B-001Z"] = true

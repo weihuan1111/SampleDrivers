@@ -2009,8 +2009,8 @@ zigbeeManufacturer:
     model: E13-N11
     deviceProfileName: on-off-level-motion-sensor
   - id: "Third Reality/3RSNL02043Z"
-    deviceLabel: ThirdReality Test
-    manufacturer: Third Reality,Inc
+    deviceLabel: ThirdReality Smart Night Light
+    manufacturer: Third Reality, Inc
     model: 3RSNL02043Z
     deviceProfileName: on-off-level-rgbw-motion-sensor
   - id: "GE_Appliances/ZLL Light"
@@ -2059,13 +2059,13 @@ zigbeeGeneric:
         - 0x0008 #Level
     deviceProfileName: switch-level
   - id: "genericColorBulb"
-    deviceLabel: Zigbee Huan
+    deviceLabel: Zigbee Light
     clusters:
       server:
         - 0x0006 #OnOff
         - 0x0008 #Level
         - 0x0300 #Color Control
-    deviceProfileName: on-off-level-rgbw-motion-sensor
+    deviceProfileName: rgbw-bulb
   - id: "genericMeteredSwitch"
     deviceLabel: Zigbee Switch
     clusters:
