@@ -22,6 +22,10 @@ components:
     version: 1
   - id: illuminanceMeasurement
     version: 1
+    config:
+      values:
+        - key: "illuminance.value"
+          range: [0, 32000]
   - id: firmwareUpdate
     version: 1
   - id: refresh
