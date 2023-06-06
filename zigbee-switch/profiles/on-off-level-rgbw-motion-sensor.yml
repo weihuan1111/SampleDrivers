@@ -10,12 +10,6 @@ components:
       values:
         - key: "level.value"
           range: [1, 100]
-  - id: colorTemperature
-    version: 1
-    config:
-      values:
-        - key: "colorTemperature.value"
-          range: [ 2700, 6500 ]
   - id: colorControl
     version: 1
   - id: motionSensor
@@ -31,5 +25,5 @@ components:
   - id: refresh
     version: 1
   categories:
-  - name: LightSensor
+  - name: Light
   
